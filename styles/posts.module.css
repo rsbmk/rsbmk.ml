@@ -1,0 +1,39 @@
+.postSection {
+  padding: 1em 0 1em 1em;
+  width: 100%;
+  background-color: var(--gray);
+}
+.postList a {
+  text-decoration: none;
+}
+.wrapTitleDate {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.postItem {
+  cursor: pointer;
+  margin: 1em 0;
+}
+.wrapImgPost {
+  min-width: 2.5em;
+}
+.postTitle {
+  color: var(--text);
+}
+.postDate {
+  color: var(--grayText);
+  font-size: 0.8em;
+}
+
+/* page post */
+.wrapPost {
+  padding: 1em;
+  min-height: 90vh;
+}
+@media screen and (min-width: 800px) {
+  .wrapPost {
+    max-width: 60vw;
+    margin: 0 auto;
+  }
+}

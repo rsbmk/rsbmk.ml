@@ -1,16 +1,46 @@
+
+:root {
+  --gray: #eff3f8;
+  --white: #fff;
+  --grayText: #8c8c8c;
+  --blue: #199afc;
+  --text: #555;
+}
 html,
 body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  background-color: var(--white);
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+*::selection {
+  background: rgba(6, 125, 247, 0.15);
+}
+h1,h2,h3,h4,h5,h6{
+  padding: .5em 0;
+  color: var(--blue);
+}
+p {
+  margin: .7em 0;
+}
+ul{
+  padding-left: 2em;
+}
+.img-project img{
+  width: 100%;
+  padding: 2em 0;
+}
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--blue);
+  /* text-decoration: none; */
 }
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
