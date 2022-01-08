@@ -1,4 +1,5 @@
 ---
+date: '11 jun 2021'
 name: Mavs
 description: En está web encontrarás todos los personajes del mundo de Marvel, y algunos datos curiosos acerca de ellos.
 imageURL: https://i.postimg.cc/VvQJM1sb/Screenshot-from-2021-12-31-13-46-24.png
