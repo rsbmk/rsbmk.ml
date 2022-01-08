@@ -1,4 +1,3 @@
-
 :root {
   --gray: #eff3f8;
   --white: #fff;
@@ -21,19 +20,26 @@ body {
 *::selection {
   background: rgba(6, 125, 247, 0.15);
 }
-h1,h2,h3,h4,h5,h6{
-  padding: .5em 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0.5em 0;
   color: var(--blue);
 }
 p {
-  margin: .7em 0;
+  margin: 0.7em 0;
 }
-ul{
+ul {
   padding-left: 2em;
 }
-.img-project img{
-  width: 100%;
+.img-project img {
+  max-width: 100%;
   padding: 2em 0;
+  display: block;
+  margin: 0 auto;
 }
 a {
   color: var(--blue);

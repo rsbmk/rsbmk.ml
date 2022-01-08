@@ -43,10 +43,10 @@ Algunas de la funcionalidades más interesantes de mencionar que tiene Mavs son 
   - Scroll infinito
   - Botón de like
   - Comentarios (editar y eliminar)
-- **Backend**
-  - Login
-  - Logout
-  - API's REST (Manejo de usuarios, personajes, likes, comentarios)
+- [**Backend**](/project/mavs-backend)
+  - Login y Logout
+  - Autenticación de usuarios
+  - API's REST CRUD (likes, comentarios)
 
 ### Scroll infinito
 
@@ -109,3 +109,18 @@ const handleClickLike = useCallback(
       : addLike({ idCharacter, jwt })
   }, [isLike, isLogged])
 ```
+###  Comentarios
+La sección de comentarios es bastante sencilla, simplemente se toma del formulario el comentario del usuario junto con el ID del personaje al que le esta haciendo el comentario y se envía a la bases de datos.
+
+La lógica en los botones para editar el comentario, y el de eliminarlo se toma en base a los ID de los comentarios y se manejan en el backend.
+
+<div class='img-project'>
+
+![image.png](https://i.postimg.cc/FFq9HNQW/image.png)
+</div>
+
+## [Backend](/project/mavs-backend)
+
+Las demás funcionalidades que se realizaron en el backend serán documentadas en un apartado por aparte.
+
+Puedes ir a leer lo en el siguiente en lace: [Backend project](/project/mavs-backend)
