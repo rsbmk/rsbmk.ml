@@ -1,6 +1,6 @@
 import { HomeHeaders } from 'components/headers/home'
 import { Footer } from 'components/ui/footer'
-import { PostList } from 'components/ui/postList'
+import { WrapMainInfo } from 'components/ui/postList'
 import { UserInfo } from 'components/ui/userInfo'
 import { getAllPosts } from 'hooks/getPost'
 import { getAllProjects } from 'hooks/getProyects'
@@ -12,7 +12,7 @@ export default function Home ({ allPosts, allProject }) {
       <HomeHeaders />
       <main className={styles.mainWrap}>
         <UserInfo />
-        <PostList allPosts={allPosts} allProject={allProject}/>
+        <WrapMainInfo allPosts={allPosts} allProject={allProject} />
       </main>
       <Footer />
     </>
