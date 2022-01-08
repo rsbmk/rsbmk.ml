@@ -8,7 +8,7 @@ import styles from 'styles/porfolio.module.css'
 export default function Project ({ body, name, description }) {
   return (
     <>
-    <ProjectHeaders description={description} name={name} />
+      <ProjectHeaders description={description} name={name} />
       <main className={styles.wrapProject}>
         <ButtonBack />
         <div dangerouslySetInnerHTML={{ __html: body }} />
