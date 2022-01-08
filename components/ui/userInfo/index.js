@@ -1,8 +1,7 @@
+import { SocialLinks } from 'components/ui/socialLinks'
 import Image from 'next/image'
 import Link from 'next/link'
-// import profilePic from 'public/images/rsbmk.jpeg'
 import styles from 'styles/Home.module.css'
-import { SocialLinks } from '../socialLinks'
 
 export function UserInfo () {
   return (
