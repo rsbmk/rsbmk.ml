@@ -16,7 +16,7 @@ export function UserInfo () {
       />
       <h1 className={styles.name}>Roberto Bocio Melo</h1>
       <p className={styles.descrip}>
-        FullStack JavaScript Developer <br /> I ❤ programming 👨‍💻 Music 🎸 & NBA 🏀
+        FullStack JavaScript Developer <br /> I ❤ programming 👨‍💻 Music 🎸 NBA 🏀
       </p>
       <h3 className={styles.porfafolioLink}>
         <Link href="/portafolio">
