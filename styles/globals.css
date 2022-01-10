@@ -41,9 +41,16 @@ ul {
   display: block;
   margin: 0 auto;
 }
+blockquote {
+  color: var(--grayText);
+  margin: 0 2em;
+}
+.center-tweet{
+  display: flex;
+  justify-content: center;
+}
 a {
   color: var(--blue);
-  /* text-decoration: none; */
 }
 * {
   margin: 0;
