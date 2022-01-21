@@ -1,6 +1,6 @@
 import { ProjectHeaders } from 'components/headers/project'
-import { ButtonBack } from 'components/ui/buttonBack'
 import { Footer } from 'components/ui/footer'
+import { Nav } from 'components/ui/Nav'
 import { getAllProjects, getProjectBySlug } from 'hooks/getProyects'
 import { marked } from 'marked'
 import styles from 'styles/porfolio.module.css'
@@ -10,7 +10,7 @@ export default function Project ({ body, name, description }) {
     <>
       <ProjectHeaders description={description} name={name} />
       <main className={styles.wrapProject}>
-        <ButtonBack />
+        <Nav />
         <div dangerouslySetInnerHTML={{ __html: body }} />
       </main>
       <Footer />

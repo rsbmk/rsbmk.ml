@@ -1,6 +1,6 @@
 import { PortafolioHeaders } from 'components/headers/portafolio'
-import { ButtonBack } from 'components/ui/buttonBack'
 import { Footer } from 'components/ui/footer'
+import { Nav } from 'components/ui/Nav'
 import { getAllProjects } from 'hooks/getProyects'
 import Link from 'next/link'
 import styles from 'styles/porfolio.module.css'
@@ -10,7 +10,7 @@ export default function Portafolio ({ projects }) {
     <>
       <PortafolioHeaders />
       <main className={styles.main}>
-        <ButtonBack /> <h1 className={styles.title}>Portafolio</h1>
+        <Nav /> <h1 className={styles.title}>Portafolio</h1>
         <section className={styles.projectList}>
           {projects.map(({ attributes, slug }) => (
             <Link href={`/project/${slug}`} key={attributes.name}>
