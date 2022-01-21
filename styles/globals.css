@@ -20,6 +20,11 @@ body {
 *::selection {
   background: rgba(6, 125, 247, 0.15);
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -37,23 +42,28 @@ ul {
 }
 .img-project img {
   max-width: 100%;
-  padding: 2em 0;
   display: block;
   margin: 0 auto;
+  box-shadow: 0 0 1em 0 var(--gray);
+}
+.img-project cite{
+  font-size: 0.8em;
+  color: var(--grayText);
 }
 blockquote {
-  color: var(--grayText);
-  margin: 0 2em;
+  background-color: var(--gray);
+  border-radius: 4px;
+  outline: var(--gray) solid 8px;
+  margin: 1.5em 2em;
 }
-.center-tweet{
+.center-tweet {
   display: flex;
   justify-content: center;
 }
+date {
+  color: var(--grayText);
+  font-size: 0.9em;
+}
 a {
   color: var(--blue);
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }

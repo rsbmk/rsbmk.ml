@@ -14,6 +14,9 @@
   font-weight: 700;
   font-size: 1.25em;
 }
+.homeName{
+  text-decoration: none;
+}
 .userSection {
   display: flex;
   flex-direction: column;

@@ -20,6 +20,7 @@
 }
 .postTitle {
   color: var(--text);
+  padding: 0;
 }
 .postDate {
   color: var(--grayText);
@@ -29,12 +30,12 @@
 .porfolioImg {
   max-width: 100%;
 }
-.projectList {
+/* .projectList {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.portfolioCardProject{
+} */
+.portfolioCardProject {
   cursor: pointer;
 }
 /* page post */
@@ -42,9 +43,15 @@
   padding: 1em;
   min-height: 90vh;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
   .portfolioCardProject {
-    max-width: 80%;
+    max-width: 50%;
+  }
+  .projectList {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    /* align-items: center; */
   }
   .wrapPost {
     max-width: 60vw;
@@ -56,7 +63,15 @@
     display: flex;
     justify-content: space-between;
   }
-  .wrapProjects{
+  .wrapProjects {
     width: 40%;
+  }
+  .projectList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolioCardProject {
+    max-width: 90%;
   }
 }
