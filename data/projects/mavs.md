@@ -11,7 +11,7 @@ imageURL: https://i.postimg.cc/VvQJM1sb/Screenshot-from-2021-12-31-13-46-24.png
 
 <div class='img-project'>
 
-![image.png | img-project](https://i.postimg.cc/T2twfrgD/image.png)
+![image.png](https://i.postimg.cc/T2twfrgD/image.png)
 </div>
 
 ## ¿Qué es Mavs?

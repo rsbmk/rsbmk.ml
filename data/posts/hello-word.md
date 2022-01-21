@@ -2,16 +2,17 @@
 title: '¡Hello Word, este es mi primer post!'
 date: '9 Ene 2022'
 miniature: 'https://i.postimg.cc/y8Fqkjv5/image.png'
-tags:  ['blog', 'motivación']
+tags:  ['blog', 'general']
 ---
 
 # ¡Hello Word, este es mi primer post!
+<date>Domingo, 9 de Enero de 2022</date>
 
 Hola, a tí quisiera decirte que formalmente hoy empiezo a escribir cada paso que doy o daré como desarrollador. De forma en la que quede un poco documentado, todos los conocimientos, experiencias, habilidades y también recomendaciones que puedo ir dando a traves de este camino. 
 
 Que como dijo mi creador de contenido favorito una vez:
 
-> <q>El desarrollo de software no es una carrera, es una maratón para toda la vida</q>  —  <cite>Miguel Angel Duran [@midudev](https://twitter.com/midudev)</cite>
+><q>El desarrollo de software no es una carrera, es una maratón para toda la vida</q>  —  <cite>Miguel Angel Duran [@midudev](https://twitter.com/midudev)</cite>
 
 Debo admitir que, hacer esto no es nada fácil, y no estoy hablando de lo técnico. Según yo tenía pensado, que no cualquiera podía escribir un blog, porque un blog tiene que tener muchos lectores para que valga la pena escribir.
 
