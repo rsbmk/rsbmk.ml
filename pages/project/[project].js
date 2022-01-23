@@ -5,10 +5,10 @@ import { getAllProjects, getProjectBySlug } from 'hooks/getProyects'
 import { marked } from 'marked'
 import styles from 'styles/porfolio.module.css'
 
-export default function Project ({ body, name, description }) {
+export default function Project ({ body, name, description, slug }) {
   return (
     <>
-      <ProjectHeaders description={description} name={name} />
+      <ProjectHeaders slug={slug} description={description} name={name} />
       <main className={styles.wrapProject}>
         <Nav />
         <div dangerouslySetInnerHTML={{ __html: body }} />
@@ -24,7 +24,8 @@ export function getStaticProps ({ params }) {
     props: {
       body: marked(body),
       name: attributes.name,
-      description: attributes.description
+      description: attributes.description,
+      slug: projectName
     }
   }
 }

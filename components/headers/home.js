@@ -13,13 +13,29 @@ export function HomeHeaders () {
       <meta name="author" content="Roberto Samuel Bocio Melo" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="robots" content="index, follow" />
-      <title>Roberto Samuel Bocio Melo | Web personal - blog - Portafolio</title>
-      <meta name="description" content="Soy Roberto Samuel Bocio Melo un desarrollador
+      <meta property="og:title" content="Roberto Bocio Melo| Artículos - Proyectos - Portafolio " />
+      <meta property="og:image" content="https://i.postimg.cc/gJGHVbqz/rsbmk.jpg" />
+      <meta
+        property="og:description"
+        content="Soy Roberto Samuel Bocio Melo un desarrollador
       FullStack JavaScript Developer y está es mi página web personal, en la están todos los árticulos
       que he publicado últimamente. Donde también muestro todos mis proyectos de mi portafolio.
-      Brindo ayuda a la comunidad atravez de mis redes sociales." />
-      <meta name="keywords" content="Roberto Samuel Bocio Melo, blog, aticulos, HTML, CSS,
-      JavaScript, TypeScript, NodeJs"/>
+      Brindo ayuda a la comunidad atravez de mis redes sociales."
+      />
+      <meta property="og:url" content="https://rsbmk.ml/" />
+      <title>Roberto Samuel Bocio Melo | Web personal - blog - Portafolio</title>
+      <meta
+        name="description"
+        content="Soy Roberto Samuel Bocio Melo un desarrollador
+      FullStack JavaScript Developer y está es mi página web personal, en la están todos los árticulos
+      que he publicado últimamente. Donde también muestro todos mis proyectos de mi portafolio.
+      Brindo ayuda a la comunidad atravez de mis redes sociales."
+      />
+      <meta
+        name="keywords"
+        content="Roberto Samuel Bocio Melo, blog, aticulos, HTML, CSS,
+      JavaScript, TypeScript, NodeJs"
+      />
     </Head>
   )
 }
