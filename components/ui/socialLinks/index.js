@@ -1,7 +1,4 @@
-import { Github } from 'components/icons/github'
-import { Instagram } from 'components/icons/instagram'
-import { LinkedIn } from 'components/icons/linkedIn'
-import { Twitter } from 'components/icons/twitter'
+import * as Icon from 'components/icons'
 import Link from 'next/link'
 import styles from 'styles/Home.module.css'
 
@@ -10,22 +7,22 @@ export function SocialLinks () {
     <aside className={styles.social}>
       <Link href="https://twitter.com/rsbmk" target="_blank">
         <a target="_blank">
-          <Twitter />
+          <Icon.Twitter />
         </a>
       </Link>
       <Link href="https://www.linkedin.com/in/rsbmk/">
         <a target="_blank">
-          <LinkedIn />
+          <Icon.LinkedIn />
         </a>
       </Link>
       <Link href="https://www.instagram.com/rsbmk/">
         <a target="_blank">
-          <Instagram />
+          <Icon.Instagram />
         </a>
       </Link>
       <Link href="http://github.com/rsbmk/">
         <a target="_blank">
-          <Github/>
+          <Icon.Github/>
         </a>
       </Link>
     </aside>
