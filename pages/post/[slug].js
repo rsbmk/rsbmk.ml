@@ -1,27 +1,28 @@
 import { PostHeaders } from 'components/headers/post'
 import { Footer } from 'components/ui/footer'
 import { Nav } from 'components/ui/Nav'
+import { ShereButtom } from 'components/ui/shareBottom'
 import { getAllPosts, getPostBySlug } from 'hooks/getPost'
 import { marked } from 'marked'
 import styles from 'styles/posts.module.css'
+import { SOCIAL } from 'utils/dictionaries'
 
 export default function Post ({ body, title, slug }) {
   return (
     <>
-      <PostHeaders title={title} />
+      <PostHeaders slug={slug} title={title} />
       <main className={styles.wrapPost}>
         <Nav />
         <div dangerouslySetInnerHTML={{ __html: body }} />
       </main>
-      {/* {slug && <button>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href={`https://twitter.com/intent/tweet?url=https://rsbmk.ml/post/${slug}`}
-        >
-          comparte este post
-        </a>
-      </button>} */}
+      <aside className={styles.shered}>
+        <h2>¡Comparte!</h2>
+        <p>Ayudame a que este artículo llegue a más personas interesadas en el desarrolo web.</p>
+        <section className={styles.SharedSection}>
+          {slug && <ShereButtom slug={slug} social={SOCIAL.TWITTER} />}
+          {slug && <ShereButtom slug={slug} social={SOCIAL.LINKEDIN} />}
+        </section>
+      </aside>
       <Footer />
     </>
   )
