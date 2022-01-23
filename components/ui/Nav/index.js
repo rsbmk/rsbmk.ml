@@ -1,4 +1,4 @@
-import { Arrow } from 'components/icons/arrow'
+import { Arrow } from 'components/icons'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useCallback } from 'react'
